@@ -7,6 +7,7 @@ $(function() {
     let separate
     let scrollRatio
 
+    
     //スクロールしたりウィンドウサイズを変えた時に実行
     $(window).on("scroll resize load", function() {
         windowH = $(this).height() //ウィンドウの高さ
